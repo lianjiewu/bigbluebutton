@@ -1,0 +1,18 @@
+<grails>
+  <resources>
+    <resource>resources</resource>
+    <resource>UrlMappings</resource>
+    <resource>BootStrap</resource>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>org.bigbluebutton.web.controllers.PresentationController</resource>
+    <resource>org.bigbluebutton.web.controllers.ApiController</resource>
+    <resource>org.bigbluebutton.web.services.PresentationService</resource>
+    <resource>JsecurityFilters</resource>
+    <resource>JsecAuthBase</resource>
+    <resource>JsecTagLib</resource>
+  </resources>
+  <plugins>
+    <plugin>JsecurityGrailsPlugin</plugin>
+  </plugins>
+</grails>
